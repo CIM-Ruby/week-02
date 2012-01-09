@@ -119,7 +119,7 @@ Push all your committed changes to your git repository `week-02-YOURNAME`
 
 #### Finding a Victim / Being a Victim
 
-Find another student in class: that is seated near you; through Hipchat; or through our [Github organization](https://github.com/organizations/UWE-Ruby/teams/90635). Ask them to fork, clone and fix your repository. You should do the same for them.
+Find another student in class: that is seated near you or through our [Github organization](https://github.com/organizations/CIM-Ruby/teams/125764). Ask them to fork, clone and fix your repository. You should do the same for them. (If you are NOT doing this exercise in class, message me (trevmex) and I'll do it with you. You can get mine at [my Github repo](https://github.com/trevmex/week-02-Trevor).)
 
 For your friends repository that you are creating a fix for the failing test it is time to open up a [Pull Request](http://help.github.com/send-pull-requests/). A pull request is initiated from your repository and send to the person's repository that you originally forked.
 

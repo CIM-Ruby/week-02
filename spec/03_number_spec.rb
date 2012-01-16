@@ -44,7 +44,7 @@ describe "Numeric type" do
       1.upto(10) do |number|
 
         # replace 'true' with a method call on number that makes the expectation pass
-        odd_numbers.push number if true
+        odd_numbers.push number if number.odd?
 
       end
 
@@ -65,7 +65,7 @@ describe "Numeric type" do
     it "needs at least one number in a calculation to be a float in order to return a float" do
 
       # change as little as possible in this calculation to make the expectation pass
-      result = (1 / 2)
+      result = (1.0 / 2)
 
       result.should eq 0.5
 

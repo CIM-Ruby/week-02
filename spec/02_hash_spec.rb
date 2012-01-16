@@ -164,13 +164,14 @@ describe "Failing Specs" do
   # pass.
   def favorites
     { :animal => 'giraffe', 
-      :color => 'blue', 
+      :color => 'green', 
       :drink => 'bloody mary', 
-      :food => 'steak' }
+      :food => 'steak',
+      :season => 'fall' }
   end
   
   it "favorites should return the correct value for the key" do
-    favorites[:animal].should eq 'tiger'
+    favorites[:animal].should eq 'giraffe'
   end
   
   it "season should be in the list of favorites" do
